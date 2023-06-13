@@ -1,4 +1,4 @@
-# DGEKT
+# CORE
 The implementation of the paper *Do We Fully Understand Students’ Knowledge States? Identifying and Mitigating Answer Bias in Knowledge Tracing*
 
 ## Abstract
@@ -40,13 +40,12 @@ pip3 install torch==1.7.0 numpy==1.21.2 pandas==1.4.1 scipy==1.7.3 scikit-learn=
 ```
 ## Hyperparameter Settings
 `/configs/data_config.json` and `/configs/kt_config.json` are specially used to set super parameters, all parameters of the whole model can be set in this file.
-
-> MAX_STEP = 200 
-> BATCH_SIZE = 128 
-> LR = 0.001 
-> EPOCH = 200 
-> EMB = 64 
-> HIDDEN = 64 
+- MAX_STEP = 200 
+- BATCH_SIZE = 128 
+- LR = 0.001 
+- EPOCH = 200 
+- EMB = 64 
+- HIDDEN = 64 
 
 
 ## Save Log
