@@ -6,8 +6,10 @@ Knowledge tracing (KT) aims to monitor students’ evolving knowledge states thr
 
 ## Causal Graph
 <img src="pic/SCM.jpg" height="250" >
+
 ## Difference between TE and NDE in Counterfactual Reasoning
 <img src="pic/TIE.jpg" height="250">
+
 ## Overall Architecture
 <img src="pic/network_structure.jpg" height="400">
 
