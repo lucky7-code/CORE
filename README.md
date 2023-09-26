@@ -19,6 +19,7 @@ In addition to the ASSIST17 dataset provided in the code, the ASSIST09 and EdNet
 
 ## Models
 
+ - `/model/init_model.py`:Initialize model;
  - `/model/DKT/dkt.py`:original DKT model;
  - `/model/DKT/dkt_core.py`:DKT-CORE model based on CORE framework;
  - `/model/DKVMN/dkvmn.py`:original DKVMN model;
