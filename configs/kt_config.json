@@ -104,5 +104,15 @@
         "learning_rate": 1e-3,
         "emb_size": 200,
         "dropout": 0.1
+    },
+    "simplekt": {
+        "learning_rate": 1e-3,
+        "emb_size": 200,
+        "dropout": 0.1
+    },
+    "sparsekt": {
+        "learning_rate": 1e-3,
+        "emb_size": 200,
+        "dropout": 0.1
     }
 }

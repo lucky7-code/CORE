@@ -40,7 +40,11 @@ def init_model(model_name, CORE, model_config, data_config, emb_type, device):
             model = AKT(data_config["num_c"], data_config["num_q"], **model_config, emb_type="qid").to(device)
         elif model_name == "simple_net":
             model = Concept_Only(data_config["num_c"],data_config["num_q"]).to(device)
+        elif model_name == "simplekt":
+            model = simpleKT(data_config["num_c"], data_config["num_q"], device=device).to(device)
+        elif model_name == "sparsekt":
+            model = sparseKT(data_config["num_c"], data_config["num_q"], device=device).to(device)
         else:
-            print("The wrong model name was used...")
+            print("The wrong model name was used...") 
             return None
     return model

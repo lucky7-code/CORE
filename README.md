@@ -27,7 +27,9 @@ In addition to the ASSIST17 dataset provided in the code, the ASSIST09 and EdNet
  - `/model/AKT/akt.py`:original AKT model
  - `/model/AKT/akt_core.py`:AKT-CORE model based on CORE framework;
  - `/model/SAIKT/saint.py`:original saint model;
- - `/model/sAKT/sakt.py`:original sakt model;
+ - `/model/SAKT/sakt.py`:original sakt model;
+ - `/model/SimpleKT/simpleKT.py`:original simpleKT model;
+ - `/model/sparseKT/SparseKT.py`:original SparseKT model;
 
 ## Setup
 
